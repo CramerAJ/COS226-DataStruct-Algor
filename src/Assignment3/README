@@ -1,0 +1,55 @@
+Andrew Cramer
+
+Didn't see in the instructions to have a MakeFile
+so I didn't have one.
+
+Classes:
+functions_question8:
+Code taken from the text book section 5.3, made very few changes to it,
+
+Ktree_node,Ktree_searchtree and Record Manager, are all related to question 9
+on homework 3 in COS 226.
+
+Had a huge issue with trying to get the commands to respond properly, so I asked 
+a few students as well as googled a few methods on stack overflow, on how to call
+a static reference to a non-static type reference. Was unable to find a way, so I instead changed
+it all to a non-static type, yet that was unable to do it. So I then changed it back to my 
+original method or making it all static, so the user's commands can call the methods
+of the other classes. Not sure if that is the way we are allowed to do it, so I asked a few other
+classmates, and everyone had different ways, so I guess something like this is viable for
+this assignment.
+
+Stack Overflow:
+http://stackoverflow.com/questions/31788841/static-and-non-static-method-in-one-class-with-the-same-name-java
+http://stackoverflow.com/questions/2042813/calling-non-static-method-in-static-method-in-java
+http://stackoverflow.com/questions/31988506/calling-non-static-method-inside-static-web-method
+http://stackoverflow.com/questions/3903537/i-want-to-know-the-difference-between-static-method-and-non-static-method
+
+
+Ktree_node:
+In this class I'm simply setting all the variables I will be using in Ktree_searchtree
+and in RecordMonager. I wrote a toString to output the values of Key(k) and Data(d) that 
+correspond with the correct pair, which we are treating as our pair
+of labels.
+
+Ktree_searchtree:
+
+In this class, I used the methods (preorder), and (postorder) from the past homework,
+since I knew I would need to recall a trees insertion order, and either one of
+these methods could have assisted me in it. I used (preorder) in the end, since it 
+is just easier. Has a insert, locate, and remove method, that are different than my psuedocode, since
+I forgot a little bit as to what I wrote down, so expecting those to look different, I made the functions
+in order of what I thought was easier to tackle first, so locate is the first one, then remove
+followed by insert. Had a few issues with insert, in terms of the user interface picking up
+on the next s command.
+
+RecordManager:
+
+Made them in order of what I thought I could get done first, left ones I was unsure 
+about for later(to see if the NewsGroup posted anything on them).
+All the commands the user can access are in this class, the user, simply has to follow
+the format of the. Did all classes in static, since it was the only way that the program
+could run and have the user access it properly,but there are other ways to do this, talked with Greg, briefly 
+about this before the written homework was due.It does however create an environment for the user
+to interact with and create a ktree or linked list which is what Prof.Chaw said to think of it as
+in class on Thursday.

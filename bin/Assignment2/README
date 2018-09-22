@@ -1,0 +1,33 @@
+Andrew Cramer
+226 Assingment 2
+
+MyTreeNode:
+Filled all methods, using the TreeNode.java implementation.
+Had certain Methods call each other, if needed to illustrate object orienting programming.
+Had my child be equal to the left child, and sibling equal to the right sibling.
+
+MyTree:
+Used MyTree methods from Tree.java, and had them call MyTreeNode Methods, in order to get size(), height(),
+ and the children nodes over to be used, to check if its empty.
+ MyTree, also sets the tree_root equal to the node, of the first one given, and 
+ is set as the root unless told to be changed at a different time.
+ 
+BST:
+Used similar code from an assignment I did in 225, as well as looked up on how to build
+a binary search tree. Was trying to have this call my F1to8 class, and use the functions, to output
+the tree, with regards to the function they have.
+
+F1to8:
+Tried to a getRight(), getLeft(), and then setLeft() and setRight() it to the parameter e, with the <String>.
+had the BinarySearchTree(BST)
+
+BTreeNode:
+Is a binary search tree that has its setLeft, setRight(), and getRight(), and getLeft().
+Used by the F1to8, to implement the functions.
+Tried to make something as best as I could with regards to the question.
+BTreeNode<E>, is used in BST(BinarySearchTree Class), as well as the F1to8, used to run the functions
+through and create a tree.
+ 
+
+
+

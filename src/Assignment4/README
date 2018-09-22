@@ -1,0 +1,41 @@
+
+	README
+	
+	Andrew Cramer 350:
+	
+	Other Source material used:
+	http://codereview.stackexchange.com/questions/7324/output-strings-from-a-set-in-lexicographical-order
+	http://www.tutorialspoint.com/java/java_stack_class.htm
+	http://stackoverflow.com/questions/2709128/how-to-create-an-array-arraylist-stack-and-queue-in-java
+	Textbook
+	
+	
+	Unlike most people who would tackle this assignment of using a ArrayList, or numerous arrays and then
+	iterate through them to find combinations of a given solution by the user. I used stacks as an easier 
+	and In my opinion a much more efficient method of doing it. That would almost 100% guarentee I had all 
+	sought out combinations of reaching the goal using the given pogo sticks. 
+	
+	The issue in testing it with a double digit n, such as 25, and an ideal array of pogos ranging from 1-10
+	the runtime was so slow that it actually forced me to quit the IDE. Which I though was funny, but also made
+	me try and come up with a better method of doing it. Which ended up being the best and only solution after 
+	talking with Prof.Chaw and observing the news group and talking with a few students. Since I tried to first take 
+	out results greater than n, yet if there were a lot of results <= n the runtime was just too big for large sets 
+	of D[d1,d2.........dn].
+	
+	TestCase:
+	
+	Just made a random number generator that I would take and output the random number distributor
+	and just enter them in and calculate the runtime using code I found on how to display nanoseconds.
+	Once obtained I would convert it to real time with an online calculator. And than use a calcualtor to fidn the avg runtime
+	of certain values of D.
+	
+	Other Comments:
+	
+	Tried several different ways to save myself on runtime, but was really not making much progress
+	on my own, used the text book alot, as well as asked a few questions with Prof.Chaw on how to 
+	shorten my runtime which did help. Yet the end result has a very long runtime for a large value of 
+	N and a an array range D[d1,d2....dn] having over 10 values less than or equal to N. 
+	
+	P.S class name may indicate how many tries I gave till I called it quits, haha.
+
+
